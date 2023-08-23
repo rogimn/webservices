@@ -1,0 +1,6 @@
+<!ELEMENT cursos (curso+)>
+<!ELEMENT curso (nome,semestres,coordenador)>
+<!ATTLIST curso id CDATA #IMPLIED>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT semestres (#PCDATA)>
+<!ELEMENT coordenador (#PCDATA)>
